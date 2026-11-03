@@ -1,0 +1,3 @@
+method,mean_abs_warp_error,median_over_pairs,max_over_pairs,pairs
+Depth Anything V2-S (frame-wise),0.0470,0.0457,0.0625,69
+Video Depth Anything-S,0.0378,0.0376,0.0455,69

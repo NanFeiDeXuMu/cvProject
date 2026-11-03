@@ -1,0 +1,2 @@
+method,images,abs_rel,rmse,delta1,net_input,precision,ms_per_image,peak_mem_MiB,hardware
+UniDepthV2-S + GT intrinsics (diagnostic),654,0.0922,0.3579,0.9263,644x490,FP16 autocast (repository default in infer),40.7718,498.2129,"NVIDIA GeForce RTX 5070 Ti (16 GB), torch 2.10.0.dev20251208+cu128, CUDA 12.8"

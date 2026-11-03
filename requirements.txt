@@ -1,0 +1,23 @@
+# Install PyTorch first, built for your GPU. Blackwell cards (RTX 50xx, sm_120) need CUDA 12.8+ builds:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# Tested with torch 2.10.0.dev20251208+cu128 / torchvision 0.25.0.dev20251208+cu128, Python 3.11.14.
+# xformers is not required: all three repos fall back to standard attention without it.
+numpy==2.3.3
+opencv-python==5.0.0.93
+h5py==3.16.0
+scipy==1.16.3
+einops==0.8.2
+timm==1.0.30
+huggingface_hub==2.4.0
+safetensors==0.8.0
+imageio==2.38.1
+imageio-ffmpeg==0.8.0
+pillow==11.3.0
+matplotlib==3.10.7
+pandas==2.3.3
+tabulate==0.10.0
+tqdm==4.67.1
+easydict==1.13
+termcolor==3.3.0
+# UniDepth imports wandb at module load, even for inference
+wandb==0.31.0

@@ -1,0 +1,3 @@
+method,precision,frames,frame_size,net_input,calls,ms_mean,ms_std,peak_mem_MiB,hardware
+Depth Anything V2-Small (frame-wise),FP32,70,640x360,924x518,70,54.68,2.75,414.57,"NVIDIA GeForce RTX 5070 Ti (16 GB), torch 2.10.0.dev20251208+cu128, CUDA 12.8"
+Video Depth Anything-Small (offline),FP16 autocast,70,640x360,924x518,1,90.42,,8015.49,"NVIDIA GeForce RTX 5070 Ti (16 GB), torch 2.10.0.dev20251208+cu128, CUDA 12.8"

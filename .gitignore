@@ -1,0 +1,13 @@
+# Datasets, weights and large generated outputs (see README for how to recreate them)
+data/
+checkpoints/
+outputs/
+depth_results.zip
+
+# Course handout
+Project_3__*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
